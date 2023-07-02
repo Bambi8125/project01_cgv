@@ -96,7 +96,6 @@ h1 {
 /* 메인 메뉴 */
 
 #container {
-    width: fit-content;
     height: 70px;
     margin: 0 auto;
     font-size: 1rem;
@@ -146,11 +145,7 @@ h1 {
     overflow: visible;
 }
 
-
-
-
 /* 서브 메뉴 */
-
 .sub_container {
     display: block;
     width: 200px;
@@ -229,7 +224,6 @@ h1 {
     width: 1600px;
     height: auto;
     margin: 0 auto;
-    background: none;
 }
 
 .quick_menu_box {
@@ -237,7 +231,7 @@ h1 {
     height: auto;
     position: fixed;
     margin-left: 1600px;
-    margin-top: 350px;
+    margin-top: 280px;
     z-index: 999;
 }
 
@@ -306,14 +300,6 @@ h1 {
     line-height: 18px;
 }
 
-.extraQB span {
-    text-shadow: 0.1rem 0.1rem 0 white;
-}
-
-.extraQB p {
-    text-shadow: 0.1rem 0.1rem 0 white;
-}
-
 #QBicon3,
 #QBicon4 {
     display: block;
@@ -359,20 +345,21 @@ main .slide ul li div {
 
 /* 슬라이더 텍스트 */
 main .slide ul li div p.slide_type {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 15px;
 }
 
 main .slide ul li div p.slide_tit {
-    font-size: 4rem;
-    line-height: 5rem;
-
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 15px;
 }
 
 main .slide ul li div p.slide_date {
-    font-size: 1.5rem;
-    line-height: 2rem;
-
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
 }
 
 main .slide ul li div a.slide_btn {
@@ -515,7 +502,7 @@ main .slide ul li#slide-4 {
 .chart_box {
     float: left;
     margin: 0.9rem;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .poster_box {
@@ -524,18 +511,18 @@ main .slide ul li#slide-4 {
     border-radius: 8%;
     overflow: hidden;
     z-index: 9999;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .poster_box img{
     width: 210px;
     height: 295px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     transform: scale(1);
 }
 
 .chart_box:hover img{
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     transform: scale(1.05);
 }
 
@@ -544,7 +531,7 @@ main .slide ul li#slide-4 {
     position: relative;
     top: -230px;
     opacity: 0;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .poster_box > a.bookmark > div {
